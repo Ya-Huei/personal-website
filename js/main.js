@@ -11,6 +11,8 @@
 	// 	$("#nav").html(data);
 	// });  
 
+	$("#nav").load("../nav.html");
+
 	$(window).stellar({
 	    responsive: true,
 	    parallaxBackgrounds: true,
