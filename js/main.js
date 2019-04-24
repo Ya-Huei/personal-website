@@ -7,9 +7,9 @@
 
 	"use strict";
 	
-	$.get("../nav.html",function(data){
-		$("#nav").html(data);
-	});  
+	// $.get("../nav.html",function(data){
+	// 	$("#nav").html(data);
+	// });  
 
 	$(window).stellar({
 	    responsive: true,
