@@ -11,7 +11,7 @@
 	// 	$("#nav").html(data);
 	// });  
 
-	$("#nav").load("../nav.html");
+	$("#nav").load("nav.html");
 
 	$(window).stellar({
 	    responsive: true,
