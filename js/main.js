@@ -7,7 +7,7 @@
 
 	"use strict";
 	
-	$("#header").load("nav.html");
+	$("#nav").load("nav.html");
 
 	$(window).stellar({
 	    responsive: true,
