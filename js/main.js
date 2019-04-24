@@ -6,9 +6,6 @@
 (function($) {
 
 	"use strict";
-	
-	$("#nav").load("nav.html");
-	console.log('abc');
 
 	$(window).stellar({
 	    responsive: true,
