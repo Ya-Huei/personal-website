@@ -3,20 +3,18 @@
  	easing: 'slide'
  });
 
-
 (function($) {
 
 	"use strict";
-	$("#nav").load("nav.html");
-	
+
 	$(window).stellar({
-	    responsive: true,
-	    parallaxBackgrounds: true,
-	    parallaxElements: true,
-	    horizontalScrolling: false,
-	    hideDistantElements: false,
-	    scrollProperty: 'scroll'
-	});
+    responsive: true,
+    parallaxBackgrounds: true,
+    parallaxElements: true,
+    horizontalScrolling: false,
+    hideDistantElements: false,
+    scrollProperty: 'scroll'
+  });
 
 
 	var fullHeight = function() {
