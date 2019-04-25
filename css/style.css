@@ -8035,13 +8035,14 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #132238;
-  padding: 6em 0; }
+  padding: 2em 2em 0em 2em; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
   .ftco-footer .ftco-footer-widget h2 {
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     font-size: 17px;
     font-weight: 700;
     letter-spacing: 1px; }
@@ -8054,7 +8055,8 @@ textarea.form-control {
       background: #fff;
       border: 2px solid #fff !important; }
   .ftco-footer p {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(255, 255, 255, 0.5); 
+    margin-top: 10px;}
   .ftco-footer a {
     color: rgba(255, 255, 255, 0.5); }
     .ftco-footer a:hover {
