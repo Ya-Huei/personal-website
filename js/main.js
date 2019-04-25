@@ -7,8 +7,8 @@
 
 	"use strict";
 
-	$("#nav").load("html/nav.html");
-	$("#footer").load("html/footer.html");
+	$("#nav").load("nav.html");
+	$("#footer").load("footer.html");
 
 	$(window).stellar({
 	    responsive: true,
