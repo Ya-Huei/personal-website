@@ -6,12 +6,9 @@
 (function($) {
 
 	"use strict";
-	
-	// $.get("../nav.html",function(data){
-	// 	$("#nav").html(data);
-	// });  
 
-	$("#nav").load("nav.html");
+	$("#nav").load("html/nav.html");
+	$("#footer").load("html/footer.html");
 
 	$(window).stellar({
 	    responsive: true,
