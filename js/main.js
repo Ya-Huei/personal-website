@@ -10,6 +10,11 @@
 	$("#nav").load("nav.html");
 	$("#footer").load("footer.html");
 
+	$(".colorlib-main-menu ul li a").click(function(){
+		$(".menu_list ul li").removeClass("colorlib-active");
+		$(this).addClass("colorlib-active");
+	})
+
 	$(window).stellar({
 	    responsive: true,
 	    parallaxBackgrounds: true,
