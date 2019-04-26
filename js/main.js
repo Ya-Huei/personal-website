@@ -3,12 +3,25 @@
  	easing: 'slide'
  });
 
+ function loadMain(route){
+ 	$("#main").load(route);
+ 	$('#colorlib-main-menu-ul li').on('click', 'a', function () {
+        $(this).parent().addClass('colorlib-active').siblings('.colorlib-active').removeClass('colorlib-active');
+    });
+ }
+
 (function($) {
 
 	"use strict";
 
 	// $("#nav").load("nav.html");
 
+	$("#main").load("about.html");
+
+	// var loadMain = function(route) {
+		
+	// };
+	// loadMain(route);
 
 	// $("#nav").load("nav.php", function() {
 	//     $("").addClass("colorlib-active");
