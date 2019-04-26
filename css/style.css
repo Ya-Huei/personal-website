@@ -7353,6 +7353,16 @@ h1, h2, h3, h4, h5,
     width: 100%;
     font-weight: 900;
     font-size: 34px; }
+    #colorlib-aside #colorlib-logo span.img {
+      display: block;
+      width: 160px;
+      height: 160px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      margin: 0 auto;
+      margin-bottom: 10px; }
     @media (max-width: 991.98px) {
       #colorlib-aside #colorlib-logo {
         margin-bottom: 20px; } }
@@ -8035,7 +8045,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #132238;
-  padding: 2em 2em 0em 2em; }
+  padding: 1em 3em 0em 1em; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
