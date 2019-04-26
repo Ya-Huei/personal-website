@@ -10,8 +10,13 @@
 	$("#nav").load("nav.html");
 	$("#footer").load("footer.html");
 
-	$(".colorlib-main-menu ul li").click(function(){
-		$(".colorlib-main-menu ul li").removeClass("colorlib-active");
+	// $('.nav-list').on('click', 'li', function() {
+	// 	$('.nav-list li.active').removeClass('active');
+	// 	$(this).addClass('active');
+	// });
+
+	$("#colorlib-main-menu ul li").click(function(){
+		$("3colorlib-main-menu ul li.colorlib-active").removeClass("colorlib-active");
 		$(this).addClass("colorlib-active");
 	})
 
