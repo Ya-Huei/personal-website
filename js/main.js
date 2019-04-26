@@ -15,10 +15,15 @@
 	// 	$(this).addClass('active');
 	// });
 
-	$("#colorlib-main-menu").on('click', 'ul li', function() {
-		$("#colorlib-main-menu ul li.colorlib-active").removeClass("colorlib-active");
-		$(this).addClass("colorlib-active");
-	})
+	// $('.nav-list li').click(function() {
+	//     $('.nav-list li.active').removeClass('active');
+	//     $(this).addClass('active');
+	// });
+
+	// $("#colorlib-main-menu").on('click', 'ul li', function() {
+	// 	$("#colorlib-main-menu ul li.colorlib-active").removeClass("colorlib-active");
+	// 	$(this).addClass("colorlib-active");
+	// })
 
 	$(window).stellar({
 	    responsive: true,
