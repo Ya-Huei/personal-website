@@ -4,6 +4,7 @@
  });
 
  function loadMain(route){
+ 	console.log(route);
  	$("#main").load(route);
  	$('#colorlib-main-menu-ul li').on('click', 'a', function () {
         $(this).parent().addClass('colorlib-active').siblings('.colorlib-active').removeClass('colorlib-active');
