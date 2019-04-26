@@ -16,7 +16,7 @@
 	// });
 
 	$("#colorlib-main-menu ul li").click(function(){
-		$("3colorlib-main-menu ul li.colorlib-active").removeClass("colorlib-active");
+		$("#colorlib-main-menu ul li.colorlib-active").removeClass("colorlib-active");
 		$(this).addClass("colorlib-active");
 	})
 
