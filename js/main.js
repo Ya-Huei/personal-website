@@ -7,8 +7,14 @@
 
 	"use strict";
 
-	$("#nav").load("nav.html");
-	$("#footer").load("footer.html");
+	// $("#nav").load("nav.html");
+
+
+	// $("#nav").load("nav.php", function() {
+	//     $("").addClass("colorlib-active");
+	// });
+
+	// $("#footer").load("footer.html");
 
 	// $('.nav-list').on('click', 'li', function() {
 	// 	$('.nav-list li.active').removeClass('active');
