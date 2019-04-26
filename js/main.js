@@ -15,7 +15,7 @@
 	// 	$(this).addClass('active');
 	// });
 
-	$("#colorlib-main-menu ul li").click(function(){
+	$("#colorlib-main-menu").on('click', 'ul li', function() {
 		$("#colorlib-main-menu ul li.colorlib-active").removeClass("colorlib-active");
 		$(this).addClass("colorlib-active");
 	})
