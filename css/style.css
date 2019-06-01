@@ -8556,3 +8556,8 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.job-logo {
+  width: 80%;
+  height: 80%;
+}
