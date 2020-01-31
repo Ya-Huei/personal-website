@@ -8561,3 +8561,17 @@ textarea.form-control {
   width: 80%;
   height: 80%;
 }
+
+.table-th-text{
+  font-size: 1.75rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.logo-icon {
+  width: 28px;  
+  height: 28px; 
+  background-size: 938px 318px;
+  background-position: -624px -48px;
