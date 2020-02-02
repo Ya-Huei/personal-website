@@ -4121,7 +4121,7 @@ input[type="button"].btn-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 1rem;
+  height: 1.5rem;
   overflow: hidden;
   font-size: 0.75rem;
   background-color: #e9ecef;
@@ -8575,3 +8575,9 @@ textarea.form-control {
   height: 28px; 
   background-size: 938px 318px;
   background-position: -624px -48px;
+}
+
+.fab-icon {
+  width: 35px;
+  height: 35px;
+}
