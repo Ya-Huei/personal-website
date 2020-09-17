@@ -7200,10 +7200,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: #6c757d !important; }
 
 .text-black-50 {
-  color: rgba(0, 0, 0, 0.5) !important; }
+  color: rgba(0, 0, 0, 0.8) !important; }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important; }
+  color: rgba(255, 255, 255, 0.8) !important; }
 
 .text-hide {
   font: 0/0 a;
@@ -7273,7 +7273,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   font-weight: 500;
-  color: #999999; }
+  color: rgba(0, 0, 0, 0.75); }
   body.offcanvas {
     overflow-x: hidden; }
     body.offcanvas #colorlib-aside {
